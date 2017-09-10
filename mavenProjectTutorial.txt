@@ -1,0 +1,14 @@
+1# 	New Maven project
+2# 	GroupId: topoinventari.com
+	ArtifactId: El nom de l'aplicació que ara estem fent (Ex: movies)
+3# Add .gitignore in the same level of the rooth project. 
+	if is idea:
+	----
+		#IDEA files
+		.idea
+		*.iml
+
+		#Maven target
+		target
+	---
+4# 
