@@ -1,0 +1,8 @@
+git init
+git status
+git log
+git commit -m "text of commit"
+
+if get into vim editor:
+1- esc
+2- :wq
