@@ -16,3 +16,28 @@
 8# add readme.md inside the main directory and the dropwizard configuration "my-app.yaml" into de resources directory
 
 9# Create the classes xxxConfiguration.java and xxxxApplication.java in the com.topoinventari.movies directory
+
+10# new folders ("package"):
+	controllers + model + services + util inside movies directory
+	assets inside resources directory
+
+
+#############
+adding a new controller or service
+#############
+
+11# Create the class inside controller directory
+
+12# it beggins with the @Path and the @Produces annotation
+	@Path("/api/transactions")
+	@Produces(MediaType.APPLICATION_JSON)
+	public class TransactionApi {
+	...
+	}
+
+13# Register it in the Application class inside the run method
+	- create new instance
+	- environment.jersey().register(xxxxxx);
+
+
+
