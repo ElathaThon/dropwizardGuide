@@ -1,14 +1,16 @@
 1# 	New Maven project
+
 2# 	GroupId: topoinventari.com
 	ArtifactId: El nom de l'aplicació que ara estem fent (Ex: movies)
-3# Add .gitignore in the same level of the rooth project. 
-	if is idea:
-	----
-		#IDEA files
-		.idea
-		*.iml
 
-		#Maven target
-		target
-	---
-4# 
+3# Add .gitignore in the same level of the rooth project. 
+
+4# In pom.xml add dependencies
+
+5# start the git ( git init )
+
+6# in version control of intelliJ we can make the first commit :D
+
+7# in src/main/java create a new directori with the name of GroupId + ArtifactId
+
+8# add readme.md inside the main directory and the dropwizard configuration "my-app.yaml" into de resources directory
